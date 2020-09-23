@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css//main.css" />
+
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="overlay hide"></div>
+    <header>
+      <div class="container">
+        <h2 class="app-title">Countdown timer</h2>
+        <div>
+          <label class="switch-title">Night mode</label>
+          <div class="switch-mode-wrapper">
+            <input type="checkbox" class="switch-toggle" name="toggle" />
+            <div class="switch-slide"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container main-container">
+      <div class="alert"></div>
+      <div class="confirm"></div>
+      <form class="timer-form">
+        <div class="form-control">
+          <input
+            type="text"
+            name="event"
+            id="event-name"
+            class="event-name"
+            required
+          />
+          <label class="label-event-name" for="event-name"
+            >Enter name of event</label
+          >
+        </div>
+        <div class="date-error"></div>
+        <div class="form-control">
+          <label class="label-event-date" for="event-date">Specify date</label>
+          <input
+            type="date"
+            name="date"
+            id="event-date"
+            class="event-date"
+            required
+          />
+        </div>
+
+        <div class="form-control">
+          <label class="label-event-time" for="event-time"
+            >Specify time (optional)</label
+          >
+          <input type="time" name="text" id="event-time" class="event-time" />
+        </div>
+
+        <input class="btn-submit" type="submit" value="Start" />
+      </form>
+      <div class="countdown-timer-wrapper"> </div>
+    </main>
+
+    <footer class="container user-details">
+      <p>Developed by <span>&#9829;</span> Emmanuel Tochukwu</p>
+      <p
+        >Check out
+        <a href="https://joviksdev.github.io/countdown-timer">GitHub repos</a>
+      </p>
+    </footer>
+
+    <script src="./script/app.js"></script>
+  </body>
+</html>
