@@ -1,7 +1,7 @@
 # Countdown Timer Application.
 
 This application provide a continuously decrementing display of the months, days, hours, minutes and seconds to a user enter event. <br>
-Live Preview [Countdown App.](https://github.com/joviksdev/Countdown-Timer.git) <br>
+Live Preview [Countdown App.](https://joviksdev.github.io/Countdown-Timer/) <br>
 
 - [x] User can see an event input box containing an event name, a date field, an optional time ansd a "start" button. <br>
 - [x] User can define the event by entering it name, the date it is scheduled to take place and and optional time of the event. If the time is omitted it is assumed to be Midnight on the event date in the local time zone. <br>
