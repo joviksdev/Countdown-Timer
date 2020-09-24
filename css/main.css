@@ -4,16 +4,6 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: 'Header';
-  src: url('../font/Arista.ttf');
-}
-
-@font-face {
-  font-family: 'Digital';
-  src: url('../font/Aunchanted.ttf');
-}
-
 :root {
   --primary-color: rgb(238, 238, 238);
   --text-color: #141110;
@@ -83,7 +73,6 @@ header > .container {
 }
 
 .app-title {
-  font-family: Header;
   font-size: 16px;
 }
 
@@ -339,7 +328,7 @@ input[type='text']:valid {
 .count-down > .counter-time {
   font-size: 25px;
   font-weight: 700;
-  font-family: Digital, sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .date-time,
