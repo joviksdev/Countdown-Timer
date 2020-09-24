@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: 'Header';
-  src: url('/font/Arista.ttf');
+  src: url('../font/Arista.ttf');
 }
 
 @font-face {
   font-family: 'Digital';
-  src: url('/font/Aunchanted.ttf');
+  src: url('../font/Aunchanted.ttf');
 }
 
 :root {
