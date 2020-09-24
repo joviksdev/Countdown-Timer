@@ -1,6 +1,6 @@
 const eventForm = document.querySelector('.timer-form');
 const btnSubmit = document.querySelector('.btn-submit ');
-const eventName = document.querySelector('.event-name');
+const eventName = document.querySelector('.input-event-name');
 const eventDate = document.querySelector('.event-date');
 const eventTime = document.querySelector('.event-time');
 const eventNameLabel = document.querySelector('.label-event-name');
@@ -8,6 +8,7 @@ const eventDateLabel = document.querySelector('.label-event-date');
 const eventTimeLabel = document.querySelector('.label-event-time');
 const dateError = document.querySelector('.date-error');
 const htmlTime = document.querySelector('.countdown-timer-wrapper');
+const githubLink = document.querySelector('.github-link');
 
 const alert = document.querySelector('.alert');
 const footer = document.querySelector('.user-details');
@@ -376,11 +377,11 @@ switchMode.addEventListener('click', e => {
 
   if (e.target.checked) {
     body.classList.add('dark-theme');
+    eventName.classList.add('inputText-light-theme');
     switchModeWrapper.classList.add('wrapper-theme');
     appTitle.classList.add('light-blue');
     switchTitle.classList.add('light-blue');
     eventForm.classList.add('timer-form-dark');
-    eventName.classList.add('inputText-light-theme');
     eventNameLabel.classList.add('light-blue');
     eventDate.classList.add('light-blue');
     eventTime.classList.add('light-blue');
@@ -388,6 +389,7 @@ switchMode.addEventListener('click', e => {
     eventTimeLabel.classList.add('light-blue');
     btnSubmit.classList.add('light-bgColor');
     footer.classList.add('light-blue');
+    githubLink.classList.add('light-blue');
     header.classList.add('no-bg');
 
     countDown.forEach(count => {
@@ -410,6 +412,7 @@ switchMode.addEventListener('click', e => {
     eventTimeLabel.classList.remove('light-blue');
     btnSubmit.classList.remove('light-bgColor');
     footer.classList.remove('light-blue');
+    githubLink.classList.remove('light-blue');
     header.classList.remove('no-bg');
 
     countDown.forEach(count => {
