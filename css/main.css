@@ -80,6 +80,7 @@ header > .container {
 
 .app-title {
   font-family: Header;
+  font-size: 16px;
 }
 
 header .container > div {
@@ -94,7 +95,7 @@ header .container > div {
   align-items: center;
   width: 40px;
   height: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
   position: relative;
   border: 1px solid var(--dark-blue);
   border-radius: 10px;
@@ -453,5 +454,10 @@ input[type='text']:valid {
   .success,
   .confirm-delete {
     width: 400px;
+  }
+
+  .app-title {
+    font-family: Header;
+    font-size: 20px;
   }
 }
